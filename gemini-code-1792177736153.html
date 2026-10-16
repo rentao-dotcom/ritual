@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritual Cigar Lounge & The Humidor | Punta Cana</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .font-luxury { font-family: 'Cormorant Garamond', serif; }
+        .font-sans { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#120F0E] text-[#F1F5F0] font-sans antialiased selection:bg-[#C68D38] selection:text-[#1A1412]">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#1A1412]/90 backdrop-blur-md border-b border-[#C68D38]/20">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3">
+                <!-- Logo de Ritual en el Header (Asegúrate de cambiar 'logo-ritual.png' por el nombre de tu archivo) -->
+                <img src="logo-ritual.png" alt="Ritual Cigar Lounge" class="h-10 w-auto object-contain">
+                <span class="text-white/30">|</span>
+                <img src="logo-humidor.png" alt="The Humidor" class="h-8 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm uppercase tracking-widest font-medium text-[#F1F5F0]/80">
+                <a href="#locations" class="hover:text-[#C68D38] transition">Ubicaciones</a>
+                <a href="#lounge" class="hover:text-[#C68D38] transition">Ritual Lounge</a>
+                <a href="#humidor" class="hover:text-[#C68D38] transition">The Humidor</a>
+                <a href="#event" class="hover:text-[#C68D38] transition">Ritual Night</a>
+                <a href="#contact" class="hover:text-[#C68D38] transition">Contacto</a>
+            </nav>
+            <a href="#contact" class="hidden lg:inline-block border border-[#C68D38] text-[#C68D38] px-5 py-2 text-xs uppercase tracking-widest hover:bg-[#C68D38] hover:text-[#1A1412] transition duration-300">
+                Contacto
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-[#1A1412]">
+        <div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#120F0E] via-[#1A1412]/60 to-transparent"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto text-center px-6 py-20">
+            <div class="inline-block bg-[#2A363B] border border-[#C68D38]/40 text-[#F1F5F0] text-xs uppercase tracking-[0.25em] px-4 py-1.5 mb-6 font-medium shadow-md">
+                Punta Cana, República Dominicana
+            </div>
+            <h1 class="font-serif text-4xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
+                El Arte del Puro <br><span class="font-luxury italic text-[#C68D38] font-normal">en su Máxima Expresión</span>
+            </h1>
+            <p class="text-base md:text-xl text-[#F1F5F0]/80 max-w-2xl mx-auto font-luxury font-light mb-10">
+                Dos conceptos únicos: el ambiente vibrante de <strong class="text-white font-normal">Ritual Cigar Lounge</strong> en Punta Cana Village y la elegancia exclusiva de <strong class="text-white font-normal">The Humidor</strong> en BlueMall.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#locations" class="bg-[#C68D38] text-[#1A1412] px-8 py-4 uppercase text-xs tracking-widest font-semibold hover:bg-[#b07b2f] transition shadow-lg">
+                    Conoce Nuestros Locales
+                </a>
+                <a href="#contact" class="border border-[#F1F5F0]/30 text-white px-8 py-4 uppercase text-xs tracking-widest font-semibold hover:border-[#C68D38] hover:text-[#C68D38] transition">
+                    Contáctanos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Two Pillars / Locations -->
+    <section id="locations" class="py-24 bg-[#120F0E] border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-[#C68D38] text-xs uppercase tracking-[0.25em] block mb-2">Destinos Exclusivos</span>
+                <h2 class="font-serif text-3xl md:text-5xl font-bold text-white">Nuestras Ubicaciones</h2>
+                <div class="w-12 h-[1px] bg-[#C68D38] mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Location 1: Ritual Cigar Lounge -->
+                <div id="lounge" class="bg-[#1A1412] border border-[#C68D38]/20 p-8 md:p-12 flex flex-col justify-between relative group overflow-hidden shadow-xl">
+                    <div class="absolute top-0 right-0 bg-[#C68D38] text-[#1A1412] text-[10px] uppercase tracking-widest font-bold px-4 py-1.5">
+                        Desde 2021
+                    </div>
+                    <div>
+                        <!-- Logo específico del Lounge -->
+                        <div class="mb-6 bg-black/40 p-4 inline-block border border-white/5">
+                            <img src="logo-ritual.png" alt="Ritual Cigar Lounge Logo" class="h-16 w-auto object-contain">
+                        </div>
+                        <span class="text-[#C68D38] text-xs uppercase tracking-widest block mb-2">Punta Cana Village</span>
+                        <h3 class="font-serif text-3xl font-bold text-white mb-4">Ritual Cigar Lounge</h3>
+                        <p class="text-[#F1F5F0]/70 font-luxury text-lg mb-6 leading-relaxed">
+                            Un espacio consagrado al buen fumar y la camaradería. Disfrute de nuestra cuidada selección de puros, relájese en la comodidad de nuestro speakeasy interior o converse largamente en nuestra amplia terraza al aire libre.
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-[#F1F5F0]/80">
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Selección curada de puros artesanales</li>
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Salón Speakeasy privado y climatizado</li>
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Terraza espaciosa para sobremesas</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                        <span class="text-xs text-[#F1F5F0]/60 uppercase tracking-wider">Punta Cana Village</span>
+                        <a href="#contact" class="text-[#C68D38] text-xs uppercase tracking-widest font-bold hover:underline">Escríbenos &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Location 2: The Humidor -->
+                <div id="humidor" class="bg-[#1A1412] border border-[#2A363B] p-8 md:p-12 flex flex-col justify-between relative group overflow-hidden shadow-xl">
+                    <div class="absolute top-0 right-0 bg-[#2A363B] text-[#C68D38] border-l border-b border-[#C68D38]/30 text-[10px] uppercase tracking-widest font-bold px-4 py-1.5">
+                        BlueMall Boutique
+                    </div>
+                    <div>
+                        <!-- Logo específico de The Humidor -->
+                        <div class="mb-6 bg-[#2A363B]/40 p-4 inline-block border border-[#C68D38]/20">
+                            <img src="logo-humidor.png" alt="The Humidor Logo" class="h-16 w-auto object-contain">
+                        </div>
+                        <span class="text-[#C68D38] text-xs uppercase tracking-widest block mb-2">BlueMall Punta Cana</span>
+                        <h3 class="font-serif text-3xl font-bold text-white mb-4">The Humidor</h3>
+                        <p class="text-[#F1F5F0]/70 font-luxury text-lg mb-6 leading-relaxed">
+                            Nuestra tienda boutique insignia cuenta con un walk-in humidor diseñado para coleccionistas y entusiastas. Albergamos las marcas más prestigiosas del mundo bajo los más rigurosos estándares de control de humedad del país.
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-[#F1F5F0]/80">
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Walk-in humidor de alta gama</li>
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Control de humedad y temperatura de precisión</li>
+                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-[#C68D38] rounded-full mr-3"></span> Ediciones limitadas y marcas ultra-premium</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                        <span class="text-xs text-[#F1F5F0]/60 uppercase tracking-wider">BlueMall - Nivel Principal</span>
+                        <a href="#contact" class="text-[#C68D38] text-xs uppercase tracking-widest font-bold hover:underline">Escríbenos &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Atmosphere Section -->
+    <section id="experience" class="py-24 bg-[#2A363B] text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-[#C68D38] text-xs uppercase tracking-[0.25em] block mb-2 font-semibold">Excelencia & Tradición</span>
+                    <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">El Ritual de la Distinción</h2>
+                    <p class="text-[#F1F5F0]/90 font-luxury text-lg mb-6 leading-relaxed">
+                        Cada detalle en nuestros espacios está pensado para el verdadero aficionado. Desde el momento en que cruza nuestras puertas, el tiempo se detiene entre aromas de cedro español, tabaco añejado y una atmósfera de absoluto confort.
+                    </p>
+                    <p class="text-[#F1F5F0]/90 font-luxury text-lg mb-8 leading-relaxed">
+                        Ya sea adquiriendo una pieza de colección en BlueMall o disfrutando de una velada nocturna en nuestra terraza y speakeasy del Village, garantizamos una experiencia inigualable.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 pt-4 border-t border-white/20">
+                        <div>
+                            <span class="block font-serif text-3xl text-[#C68D38] font-bold">2021</span>
+                            <span class="text-xs uppercase tracking-widest text-[#F1F5F0]/80">Tradición en el Village</span>
+                        </div>
+                        <div>
+                            <span class="block font-serif text-3xl text-[#C68D38] font-bold">100%</span>
+                            <span class="text-xs uppercase tracking-widest text-[#F1F5F0]/80">Control Climático</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-[400px] md:h-[500px] border border-[#C68D38]/40 p-2 bg-[#1A1412]">
+                    <div class="absolute inset-0 bg-cover bg-center m-2 opacity-85" style="background-image: url('https://images.unsplash.com/photo-1514517521153-1be72277b32f?q=80&w=1000&auto=format&fit=crop');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ritual Cigar Night Section -->
+    <section id="event" class="py-24 bg-[#1A1412] relative overflow-hidden border-t border-white/5">
+        <div class="absolute inset-0 z-0 opacity-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+            <span class="text-[#C68D38] text-xs uppercase tracking-[0.3em] block mb-3 font-semibold">Nuestro Evento Insignia</span>
+            <h2 class="font-serif text-4xl md:text-6xl font-bold text-white mb-6">Ritual Cigar Night</h2>
+            <div class="w-16 h-[1px] bg-[#C68D38] mx-auto mb-8"></div>
+            <p class="text-lg md:text-2xl text-[#F1F5F0]/90 font-luxury max-w-3xl mx-auto leading-relaxed mb-10">
+                Celebrado cada mes de <strong class="text-white font-normal">abril</strong>, es nuestro evento insignia que reúne lo mejor del mundo del cigarro y el tabaco para vivir y celebrar una noche verdaderamente mágica.
+            </p>
+            <div class="inline-block border border-[#C68D38]/40 bg-[#120F0E]/80 backdrop-blur px-8 py-4 text-sm tracking-widest uppercase text-[#C68D38] font-semibold">
+                Próxima Edición: Abril — Punta Cana
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-[#120F0E]">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-[#C68D38] text-xs uppercase tracking-[0.25em] block mb-2">Comuníquese con Nosotros</span>
+                <h2 class="font-serif text-3xl md:text-5xl font-bold text-white">Contacto</h2>
+                <p class="text-[#F1F5F0]/70 font-luxury text-lg mt-3">Envíenos sus consultas y le responderemos a la brevedad.</p>
+                <div class="w-12 h-[1px] bg-[#C68D38] mx-auto mt-4"></div>
+            </div>
+
+            <form id="contact-form" action="https://formspree.io/f/ritualcigars@gmail.com" method="POST" class="bg-[#1A1412] border border-[#C68D38]/30 p-8 md:p-12 space-y-6 shadow-2xl" onsubmit="return validateCaptcha(event)">
+                
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-[#F1F5F0]/70 mb-2">Nombre</label>
+                    <input type="text" name="nombre" required placeholder="Su nombre completo" class="w-full bg-[#120F0E] border border-white/10 px-4 py-3 text-white text-sm focus:border-[#C68D38] focus:outline-none transition">
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-[#F1F5F0]/70 mb-2">Email</label>
+                    <input type="email" name="email" required placeholder="correo@ejemplo.com" class="w-full bg-[#120F0E] border border-white/10 px-4 py-3 text-white text-sm focus:border-[#C68D38] focus:outline-none transition">
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-[#F1F5F0]/70 mb-2">Mensaje</label>
+                    <textarea name="mensaje" rows="4" required placeholder="Escriba su consulta o requerimiento..." class="w-full bg-[#120F0E] border border-white/10 px-4 py-3 text-white text-sm focus:border-[#C68D38] focus:outline-none transition"></textarea>
+                </div>
+
+                <!-- Simple Captcha Matemático -->
+                <div class="pt-2 border-t border-white/10">
+                    <label id="captcha-label" class="block text-xs uppercase tracking-widest text-[#C68D38] mb-2 font-semibold">Verificación de seguridad</label>
+                    <div class="flex items-center space-x-4">
+                        <span id="captcha-question" class="text-sm font-mono bg-[#120F0E] px-4 py-3 border border-white/10 text-white select-none"></span>
+                        <input type="number" id="captcha-answer" required placeholder="Resultado" class="w-32 bg-[#120F0E] border border-white/10 px-4 py-3 text-white text-sm focus:border-[#C68D38] focus:outline-none transition">
+                    </div>
+                </div>
+
+                <div class="text-center pt-4">
+                    <button type="submit" class="bg-[#C68D38] text-[#1A1412] px-10 py-4 uppercase text-xs tracking-widest font-bold hover:bg-[#b07b2f] transition shadow-lg w-full">
+                        Enviar Mensaje
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Script Captcha -->
+    <script>
+        let num1 = Math.floor(Math.random() * 8) + 2;
+        let num2 = Math.floor(Math.random() * 8) + 2;
+        let correctAnswer = num1 + num2;
+
+        document.getElementById('captcha-question').innerText = `¿Cuánto es ${num1} + ${num2}?`;
+
+        function validateCaptcha(event) {
+            const userAnswer = parseInt(document.getElementById('captcha-answer').value);
+            if (userAnswer !== correctAnswer) {
+                event.preventDefault();
+                alert('La respuesta de verificación (Captcha) es incorrecta. Por favor intente de nuevo.');
+                num1 = Math.floor(Math.random() * 8) + 2;
+                num2 = Math.floor(Math.random() * 8) + 2;
+                correctAnswer = num1 + num2;
+                document.getElementById('captcha-question').innerText = `¿Cuánto es ${num1} + ${num2}?`;
+                document.getElementById('captcha-answer').value = '';
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-[#1A1412] border-t border-white/10 py-12 text-center text-xs text-[#F1F5F0]/50 uppercase tracking-widest">
+        <div class="max-w-7xl mx-auto px-6 space-y-4">
+            <p class="font-serif text-lg text-[#C68D38] tracking-wider">RITUAL CIGAR LOUNGE & THE HUMIDOR</p>
+            <p>Punta Cana Village & BlueMall Punta Cana — República Dominicana</p>
+            <p class="text-[10px] text-white/30 pt-4">&copy; 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
